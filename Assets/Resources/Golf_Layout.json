@@ -75,7 +75,7 @@
             "y": 0,
             "faceUp": true,
             "layer": "Row1",
-            "hiddenByString": ""
+            "hiddenByString": "15"
         },
         {
             "id": 9,
@@ -83,7 +83,7 @@
             "y": 0,
             "faceUp": true,
             "layer": "Row1",
-            "hiddenByString": ""
+            "hiddenByString": "16"
         },
         {
             "id": 10,
@@ -91,7 +91,7 @@
             "y": 0,
             "faceUp": true,
             "layer": "Row1",
-            "hiddenByString": ""
+            "hiddenByString": "17"
         },
         {
             "id": 11,
@@ -99,7 +99,7 @@
             "y": 0,
             "faceUp": true,
             "layer": "Row1",
-            "hiddenByString": ""
+            "hiddenByString": "18"
         },
         {
             "id": 12,
@@ -107,7 +107,7 @@
             "y": 0,
             "faceUp": true,
             "layer": "Row1",
-            "hiddenByString": ""
+            "hiddenByString": "19"
         },
         {
             "id": 13,
@@ -115,7 +115,7 @@
             "y": 0,
             "faceUp": true,
             "layer": "Row1",
-            "hiddenByString": ""
+            "hiddenByString": "20"
         },
         {
             "id": 14,
@@ -123,7 +123,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "21"
         },
         {
             "id": 15,
@@ -131,7 +131,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "22"
         },
         {
             "id": 16,
@@ -139,7 +139,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "23"
         },
         {
             "id": 17,
@@ -147,7 +147,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "24"
         },
         {
             "id": 18,
@@ -155,7 +155,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "25"
         },
         {
             "id": 19,
@@ -163,7 +163,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "26"
         },
         {
             "id": 20,
@@ -171,7 +171,7 @@
             "y": -1,
             "faceUp": true,
             "layer": "Row2",
-            "hiddenByString": ""
+            "hiddenByString": "27"
         },
         {
             "id": 21,
@@ -179,7 +179,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "28"
         },
         {
             "id": 22,
@@ -187,7 +187,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "29"
         },
         {
             "id": 23,
@@ -195,7 +195,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "30"
         },
         {
             "id": 24,
@@ -203,7 +203,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "31"
         },
         {
             "id": 25,
@@ -211,7 +211,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "32"
         },
         {
             "id": 26,
@@ -219,7 +219,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "33"
         },
         {
             "id": 27,
@@ -227,7 +227,7 @@
             "y": -2,
             "faceUp": true,
             "layer": "Row3",
-            "hiddenByString": ""
+            "hiddenByString": "34"
         },
         {
             "id": 28,
