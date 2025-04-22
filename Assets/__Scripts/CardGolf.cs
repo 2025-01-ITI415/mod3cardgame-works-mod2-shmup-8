@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum eCardState { drawpile, mine, target, discard }
 public class CardGolf : Card
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("Dynamic: CardGolf")]
+    public eCardState state = eCardState.drawpile;
+
+
+    public List<CardGolf> hiddenBy = new List<CardGolf>();
+    public int layoutID;
+    public JsonLayoutSlot layoutSlot;
+
+    override public void OnMouseUpAsButton()
     {
-        
+        Golf.CARD_CLICKED(this);
+        base.OnMouseUpAsButton();// b
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
