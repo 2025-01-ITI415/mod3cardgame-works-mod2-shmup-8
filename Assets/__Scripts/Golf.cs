@@ -269,6 +269,7 @@ public class Golf : MonoBehaviour
                         break;
                     }
                 }
+
                 //if (!(cg.hiddenBy[].state == eCardState.mine)) validMatch = false;
                 //"hiddenby" checks slot, but still need to check if card is in slot.
                 //should also check if card in slot is in mine or not.
