@@ -13,12 +13,18 @@ public class Golf : MonoBehaviour
 
     [Header("Dynamic")]
     public List<CardGolf> drawPile;
+    public static int currentLevel = 1;
+    public static int totalRemainingCards = 0;
+    private static bool initialized = false;
+
 
     public List<CardGolf> discardPile;
     public List<CardGolf> mine;
     public CardGolf target;
-
+    public GameObject buttonNL;
+    public GameObject buttonEG;
     private Transform layoutAnchor;
+    public EndGameScreen endGameScreen;
 
     private Deck deck;
     private JsonLayout jsonLayout;
@@ -29,6 +35,11 @@ public class Golf : MonoBehaviour
 
     void Start()
     {
+        if (currentLevel == 3)
+        {
+            buttonNL.SetActive(false);
+            buttonEG.SetActive(true);
+        }
         // Set the private Singleton. We’ll use this later.
         if (S != null) Debug.LogError("Attempted to set S more than once!");  // b
         S = this;
@@ -46,7 +57,46 @@ public class Golf : MonoBehaviour
 
         MoveToTarget(Draw());
         UpdateDrawPile();
+
     }
+    public void nextLevel()
+    {
+        totalRemainingCards += CountRemainingMineCards();
+        if(currentLevel==3)
+        {
+   
+            Debug.Log("final score is:"+totalRemainingCards);
+            buttonEG.SetActive(false);
+            endGameScreen.endGame(totalRemainingCards);
+        }
+        else
+        {
+            currentLevel++;
+            RestartGame();
+        }
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
+
+    //Count remaining cards
+
+    public int CountRemainingMineCards()
+    {
+        int count = 0;
+        foreach (CardGolf cg in mine)
+        {
+            if (cg.state == eCardState.mine)
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+
 
     /// <summary>
     /// Converts each Card in a List(Card) into a List(CardProspector) so that it
