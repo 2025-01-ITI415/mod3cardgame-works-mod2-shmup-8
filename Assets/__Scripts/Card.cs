@@ -272,8 +272,8 @@ public class Card : MonoBehaviour
         if (wrap)
         {  // If wrap == true, Ace and King are treated as adjacent
             // If one Card is Ace and the other King, they are adjacent
-            if (rank == 1 && otherCard.rank == 13) return (false);
-            if (rank == 13 && otherCard.rank == 1) return (false);
+            if (rank == 1 && otherCard.rank == 13) return (true);
+            if (rank == 13 && otherCard.rank == 1) return (true);
         }
 
         return (false);  // Otherwise, return false
